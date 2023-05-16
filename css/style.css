@@ -1,0 +1,254 @@
+body{
+    background-color: #010208;
+    font-family: 'Orbitron', sans-serif;
+}
+.container-fluid{
+    position: relative;
+}
+.vector1{
+    width: 5%;
+    position: absolute;
+    left: 50%;
+    top: 6%;
+}
+.ellipse11{
+    position: absolute;
+    top: 72%;
+    width: 35%;
+    left: 65%;
+}
+.ellipse101{
+    position: absolute;
+    top: 56%;
+    width: 35%;
+    left: 0%;
+}
+.ellipse91{
+    position: absolute;
+    top: 24%;
+    right: 0;
+    width: 35%;
+}
+.ellipse81{
+    position: absolute;
+    top: -1%;
+    right: 0;
+    left: 8%;
+    width: 40%;
+}
+.ellipse71{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 35%;
+}
+.ellipse61{
+    position: absolute;
+    top: 3%;
+    right: 0;
+    width: 35%;
+    left: 0%;
+}
+button{
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    color: white;
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    border-radius: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.fndo{
+    background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;   
+}
+h2{
+    font-size: 56px;
+}
+h1{
+    font-size: 51px;
+}
+.section1 p, .section2 p, .section3 p, .section5 p, .section6 p{
+    font-size: 24px;
+}
+.barra{
+    margin-top: 28px;
+    position: relative;
+    padding:0 7%
+}
+.barra .textm{
+    color: white;
+}
+.barra a{
+    color: white;
+}
+.barra .list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.list :hover{
+    color: #D10ED1;
+}
+.section1{
+   margin-top: 7%;
+   color: white;
+   padding:0 7%
+}
+.section1 .displayflex{
+    display: flex;
+    gap: 4%;
+}
+.section1 .ellipse1{
+    position: relative;
+}
+.section2{
+    color: white;
+    margin-top: 10%;
+    padding:0 7%
+}
+.section2 .ellipse2{
+    position: relative;
+}
+.section2 .ellipse62{
+   position: absolute;
+   position: absolute;
+   top: -105%;
+   margin-left: -113%;
+}
+.section3{
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    padding:0 7%
+}
+.section3 h2{
+    position: relative;
+}
+.section4 .fondoa{
+    background: #090823;
+    border-radius: 30px 30px 0px 30px;
+}
+.section4 .text4{
+    padding: 4%;
+}
+.section4{
+    color: white;
+    margin-top: 10%;
+    padding:0 7%
+}
+.section4 h2{
+    font-size: 24px;
+}
+.section4 p{
+    font-size: 16px;
+}
+.section5{
+    margin-top: 10%;
+    padding:0 7%
+}
+.section5 .fondoa{
+    background: #090823;
+    border-radius: 30px 30px 0px 30px;
+}
+.section5 .text4{
+    padding: 4%;
+}
+.section5{
+    color: white;
+}
+.section5 h2{
+    font-size: 24px;
+}
+.section5 p{
+    font-size: 16px;
+}
+.section6{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    padding:0 7%
+}
+.section7{
+    margin-top: 10%;
+    margin-left: 7%;
+    
+}
+.section7 .ellipse10{
+    position: relative;
+}
+.section7 .ellipse107{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.imgmeta{
+    text-align: end;
+    padding: 0;
+}
+.imgmeta img{
+    width: 35%;
+}
+.section8{
+    color: white;
+    background-color: #090823;
+    margin-top: 15%;
+    padding: 0 7%;
+
+}
+img{
+    width: 100%;
+}
+.redes img{
+    width: 5%;
+}
+.barra .barras{
+    display: none;
+    font-size: 34px;
+    color: white;
+}
+
+.ellipse61, .ellipse71, .ellipse81, .ellipse91, .ellipse101, .ellipse11{
+    animation: animate 4s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.vector1{
+    animation: animate 4s linear infinite;
+}
+ 
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
